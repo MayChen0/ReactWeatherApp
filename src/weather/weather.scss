@@ -1,0 +1,115 @@
+.weather{
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &_container{
+        position: relative;
+        min-width: 360px;
+        box-shadow: 0 1px 3px 0 #999999;
+        background-color: rgba($color: #ffff, $alpha: .3);
+        box-sizing: border-box;
+        padding: 30px 15px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+        
+
+        &_location{
+            font-size: 28px;
+            color: #212121;
+            margin: 0 0 5px;
+        }
+
+        &_description{
+            font-size: 16px;
+            color: #828282;
+            margin-bottom: 15px;
+        }
+
+        &_currentWeather{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 0 10px;
+
+            &_img{
+                height: 120px;
+                margin-right: 10px;
+            }
+
+            &_temperature{
+                display: flex;
+               
+                text-align: start;
+                &_number{
+                    margin: 0;
+                    color: #757575;
+                    font-size: 96px;
+                    font-weight: 300;
+                    display: flex;
+                }
+                
+                
+                
+
+                &_celsius{
+                    margin: 0;
+                    color: #757575;
+                    font-weight: normal;
+                    font-size: 42px;
+                }
+            }
+        }
+        &_airflow{
+            display: flex;
+            align-items: center;
+            font-size: 16x;
+            font-weight: 300;
+            color: #828282;
+            margin: 0 0 15px;
+
+            & p{
+                margin: 0;
+            }
+
+            &_icon{
+                width: 25px;
+                height: auto;
+                margin: 0 10px;
+            }
+        }
+
+        &_rain{
+            display: flex;
+            align-items: center;
+            font-size: 16x;
+            font-weight: 300;
+            color: #828282;
+            margin: 0;
+
+            & p{
+                margin: 0;
+            }
+
+            &_icon{
+                width: 25px;
+                height: auto;
+                margin: 0 10px;
+            }
+            
+        }
+
+        &_reload{
+            width: 20px;
+            height: auto;
+            align-self: flex-end;
+            margin-right: 10px;
+            
+        }
+
+    }
+     
+    }
